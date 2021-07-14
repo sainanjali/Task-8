@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Todo Webapp</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>Todo App</header>
+        <hr>
+        <hr>
+        <div class="inputField">
+            <input type="text" placeholder="Add your new todo">
+            <button>Add</button>
+        </div>
+
+        <ul class="todolist">
+           <!-- Data comes from local storage -->
+
+        </ul>
+        <div class="footer">
+            <span>You have <span class="pendingNumb"></span> pending tasks</span>
+            <button>Clear All</button>
+        </div>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+
+</html>
